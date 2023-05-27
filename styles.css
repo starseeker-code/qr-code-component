@@ -10,36 +10,39 @@ body{
 }
 
 .container {
-    width: 280px;
+    width: 300px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 0.8em;
+    border-radius: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
 }
 
 #qr-code {
-    padding: 0.75em;
-    width: 90%;
-    height: 90%;
-    border-radius: 1.5em;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
 }
 
 p {
     color:hsl(220, 15%, 55%) ;
     text-align: center;
     font-weight: 400;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 0.9rem;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    font-size: 1rem;
 }
 
 h1 {
     color: hsl(218, 44%, 22%);
     text-align: center;
     font-weight: 700;
-    font-size: 1.2rem;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+    font-size: 1.5rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
