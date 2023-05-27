@@ -1,3 +1,14 @@
-p {
-    color: red;
+body{
+    display: flex;
+}
+
+.white-bg-qr-code {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#qr-code {
+    justify-content: center;
+    align-items: center;
 }
