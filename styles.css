@@ -1,14 +1,19 @@
 body{
+    background-color: hsl(220, 15%, 55%);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .white-bg-qr-code {
-    justify-content: center;
-    align-items: center;
     background-color: white;
+    border-radius: 10px;
 }
 
-#qr-code {
-    justify-content: center;
-    align-items: center;
+p {
+    color: hsl(212, 45%, 89%)
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
 }
